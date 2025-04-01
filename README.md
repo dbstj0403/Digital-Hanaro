@@ -1,2 +1,3 @@
-# Digital-Hanaro
+# ✍🏻 Digital-Hanaro
+
 디지털 하나로 금융서비스개발 6기에 참여하며 학습한 내용을 기록합니다.
