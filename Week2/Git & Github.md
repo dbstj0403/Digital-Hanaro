@@ -176,6 +176,7 @@ git fetch -p : 다른 폴더에서는 fetch -p 해야 브랜치 삭제 적용됨
 - 브랜치에서 만들었던 커밋을 합쳐서 하나의 커밋으로 메인 브랜치에 생성해 준다.
 - Git history를 깔끔하게 유지할 수 있다.
 - **`git merge —squash [branch name]`**
+
   ![Image](https://github.com/user-attachments/assets/0c70920c-104d-4f66-9406-653e79a40ec5)
 
 ### 💦 Git reset, revert & tag
