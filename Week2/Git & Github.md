@@ -244,7 +244,7 @@ git fetch -p : 다른 폴더에서는 fetch -p 해야 브랜치 삭제 적용됨
   - 각 단계는 하나의 작업을 수행하는 명령어.
 - **Action**
   - Github Action workflow에서 실행할 수 있는 개별 작업.
-  - 코드 빌드, 테스트 실행, AWS 배포 등이 액션으로 구현될 수 있따.
+  - 코드 빌드, 테스트 실행, AWS 배포 등이 액션으로 구현될 수 있다.
 - **Event**
   - workflow를 트리거하는 조건. (push, pull, PR, Issue etc.)
 - **Runner**
