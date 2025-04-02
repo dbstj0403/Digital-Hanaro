@@ -162,7 +162,9 @@ git fetch -p : 다른 폴더에서는 fetch -p 해야 브랜치 삭제 적용됨
 > **Rebase merge**
 
 - rebase를 이용해서 신규 브랜치의 시작점을 main 브랜치 최근 커밋으로 이동 → 이후 fast-forward merge를 통해 깃 히스토리를 깔끔하게 유지할 수 있다.
+
   ![Image](https://github.com/user-attachments/assets/e989afab-4636-471f-8bf8-36b013bc61f5)
+
   - **`신규 브랜치에서 기준 브랜치 내용을 깔끔하게 합칠 때 사용하는 것이지 기준 브랜치에서 사용하는 것이 아님!`**
 
 > **3-Way merge vs rebase merge**
