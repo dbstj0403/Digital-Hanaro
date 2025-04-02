@@ -132,8 +132,11 @@ git fetch -p : 다른 폴더에서는 fetch -p 해야 브랜치 삭제 적용됨
 ### 🐒 Git merge & rebase
 
 - **`merge`**
+
   - 브랜치 합치기
+
     ![Image](https://github.com/user-attachments/assets/202db1ae-18b0-4c70-af71-ead4cc569c9d)
+
 - **`불필요한 브랜치 삭제`**
   - `git branch -d [branch name]` : 병합이 완료된 브랜치 삭제
   - `git branch -D [branch name]` : 병합되지 않은 브랜치 삭제
