@@ -1,6 +1,7 @@
 ### 🐤 변수와 타입
 
 - **`변수 선언과 중복 선언`**
+
     <img width="241" alt="Image" src="https://github.com/user-attachments/assets/ba368c5d-3612-4dbe-bb28-0479509133e2" />
 
 - **var 문을 사용하여 같은 이름을 가진 변수를 여러 개 선언하더라도 문제가 발생하지 않는다.**
@@ -12,7 +13,7 @@
   - 예약어 제외
   - 유니코드 문자
 
-> \*\*✍🏻 표기법
+> ✍🏻 표기법
 
 - camelCase : newName
 - PascalCase : UserProfile
@@ -54,6 +55,7 @@ console.log(sym1 === sym2); // false (항상 고유)
 ```
 
 - **`심볼을 객체 키로 사용하기`**
+
   ```jsx
   const user = {};
   const id = Symbol("id"); // 설명(description) 추가 가능
@@ -63,8 +65,10 @@ console.log(sym1 === sym2); // false (항상 고유)
   console.log(user[id]); // 12345
   console.log(Object.keys(user)); // [] → 일반 키 목록에 안 나옴
   ```
+
   - 다른 코드에서 실수로 덮어쓰는 것 방지
-  - 일반적인 키 확인용 함수로는 확인 불가. 😤
+    - 일반적인 키 확인용 함수로는 확인 불가. 😤
+
 - **`Symbol.for()`**
     <img width="282" alt="Image" src="https://github.com/user-attachments/assets/7f8a5b29-4347-4805-9cd4-8e7a1d3ed78f" />
 
@@ -103,6 +107,7 @@ console.log(sym1 === sym2); // false (항상 고유)
 - 자바스크립트에서 원시 타입을 제외한 모든 값.
 - 객체는 객체 리터럴과 생성자로 생성할 수 있다.
 - 여러 개의 데이터를 하나로 모은 복합 데이터
+
     <img width="321" alt="Image" src="https://github.com/user-attachments/assets/ed80f875-7c61-4af1-a981-87d7a07a436d" />
 
 - **`객체 리터럴로 객체 생성하기`**
@@ -110,6 +115,7 @@ console.log(sym1 === sym2); // false (항상 고유)
   var card = { suit: "heart", rank: "A" };
   ```
 - **`프로퍼티 추가 및 삭제`**
+
     <img width="335" alt="Image" src="https://github.com/user-attachments/assets/c2c9e2b0-158b-4140-866c-e71d96cf13a3" />
 
 ### 🌸 함수
@@ -147,16 +153,22 @@ console.log(sym1 === sym2); // false (항상 고유)
 > **변수의 유효 범위**
 
 - **`함수 안에서의 변수 선언과 변수 끌어올림`**
+
   - 함수 안에서 선언된 지역 변수의 유효 범위는 함수 전체이다.
+
       <img width="324" alt="Image" src="https://github.com/user-attachments/assets/17627ec1-181f-433f-8954-334e81990c1c" />
 
 - **`함수 안에서의 변수 선언 생략`**
+
   - 변수를 선언하지 않은 상태에서 값을 대입하면 전역 변수로 선언된다.
+
       <img width="218" alt="Image" src="https://github.com/user-attachments/assets/02d40234-4f9f-4356-b0e3-818793476269" />
+
 
 - **`메소드`**
 
   - 객체의 프로퍼티 값이 함수 객체인 경우
+
       <img width="330" alt="Image" src="https://github.com/user-attachments/assets/1aab593c-de87-48e5-9993-bce8fee7231a" />
 
 - **`in 연산자`**
@@ -165,6 +177,7 @@ console.log(sym1 === sym2); // false (항상 고유)
     console.log("suit" in card); // true
     ```
 - **`참조 타입`**
+
     <img width="181" alt="Image" src="https://github.com/user-attachments/assets/93968406-870f-432f-bc2c-1b8843456277" />
 
 ### 🐹 let, const, var
@@ -242,6 +255,7 @@ obj.name = "Jerry"; // ✅ 객체 속성은 바꿀 수 있음
     ```
   - 피연산자 중 하나가 문자열 또는 문자열로 변환 가능한 객체라면 문자열로 바꾼 다음 연결된다.
 - **`String 객체의 주요 메소드`**
+
     <img width="182" alt="Image" src="https://github.com/user-attachments/assets/a405d17b-575b-405c-971e-b88610941aa9" />
 
 - **`문자열을 배열로 읽고 쓰기`**
@@ -273,6 +287,7 @@ obj.name = "Jerry"; // ✅ 객체 속성은 바꿀 수 있음
 <img width="308" alt="Image" src="https://github.com/user-attachments/assets/9083cbe9-cf11-47fc-a907-43fab28d4d72" />
 
 <aside>
+
 🍅 <strong>논리 연산시 주의할 점!<strong>
 
 </aside>
