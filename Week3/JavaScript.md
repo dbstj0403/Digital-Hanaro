@@ -316,6 +316,7 @@ todos.forEach((todo) => {
   console.log([a, b, c].toString()); // a, b, c
   ```
 - **`find(callback func)`**, **`findIndex(text func)`**
+
   <img width="273" alt="Image" src="https://github.com/user-attachments/assets/dbbb9ad2-af2f-4d10-a1a0-6ae041a78a1e" />
 
 > **반복 메소드**
