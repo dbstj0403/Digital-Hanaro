@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="changeColor()">Change Background Color!</button>
+  </body>
+  <script>
+    const colors = ["white", "yellow", "red", "green"];
+    let count = 0;
+    const changeColor = () => {
+      count = (count + 1) % colors.length;
+      const body = document.body;
+      body.style.backgroundColor = colors[count];
+    };
+  </script>
+</html>
