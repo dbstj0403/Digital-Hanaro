@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 id="clock"></h2>
+  </body>
+  <script>
+    const clock = document.getElementById("clock");
+    function updateClock() {
+      const now = new Date();
+      const month = String(now.getMonth());
+      const day = String(now.getDay());
+      const hours = String(now.getHours());
+      const minutes = String(now.getMinutes());
+      const seconds = String(now.getSeconds());
+
+      clock.innerText = `${month}월 ${day}일 ${hours}시 ${minutes}분 ${seconds}초`;
+    }
+
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+</html>
