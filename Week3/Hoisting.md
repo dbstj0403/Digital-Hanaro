@@ -7,7 +7,7 @@ console.log(temp);
 var temp = 2; // undefined
 ```
 
-    <img width="319" alt="Image" src="https://github.com/user-attachments/assets/1c3df11f-bf16-42e6-974f-e354c4a96ec8" />
+<img width="292" alt="Image" src="https://github.com/user-attachments/assets/6b227352-464e-4cc1-b7bc-2929f5399444" />
 
 > **let의 경우**
 
@@ -16,7 +16,7 @@ console.log(temp);
 let temp = 2; // ReferenceError
 ```
 
-    <img width="282" alt="Image" src="https://github.com/user-attachments/assets/262e3b9f-e2ce-415d-a9df-29d7e03d8ef1" />
+<img width="303" alt="Image" src="https://github.com/user-attachments/assets/a5099ea4-ecd1-4672-8235-acd7ab2625e7" />
 
 > **const의 경우**
 
@@ -26,7 +26,8 @@ const temp = 2; // ReferenceError
 ```
 
 - const는 선언과 초기화가 한번에 되어야 한다.
-  <img width="303" alt="Image" src="https://github.com/user-attachments/assets/126f68e0-5863-4d4f-9fb1-9d5905c88311" />
+
+ <img width="282" alt="Image" src="https://github.com/user-attachments/assets/8fad7c0b-87ce-4622-a15d-747daf8515fc" />
 
 <aside>
 🦈

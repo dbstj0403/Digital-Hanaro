@@ -23,7 +23,7 @@
 5. this도 상황에 따라 저장
 ```
 
-<img width="292" alt="Image" src="https://github.com/user-attachments/assets/eeb93941-1281-41bd-ac8b-168746e3ad03" />
+<img width="319" alt="Image" src="https://github.com/user-attachments/assets/6b918d55-f630-462c-bea0-89a064631fe1" />
 
 ### 🚰 가비지 컬렉션
 
