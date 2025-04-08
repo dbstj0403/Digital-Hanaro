@@ -13,8 +13,8 @@ function f2(obj) {
 const hong = { id: 1, name: "Hong" };
 const lee = { id: 2, name: "Lee" };
 
-f1(hong); // 1, 'Hong'
-f2(lee); //
+f1(hong);
+f2(lee);
 
 // 다음 user 객체에서 passwd 프로퍼티를 제외한 데이터를 userInfo라는 변수에 할당하시오.
 
