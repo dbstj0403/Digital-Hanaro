@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <img class="imgContainer" src="img/ganadi1.jpeg" width="300" />
+    <br />
+    <button onclick="previous()">이전</button>
+    <button onclick="next()">다음</button>
+
+    <br /><br />
+
+    <div style="display: flex; flex-direction: column; width: 300px; gap: 10px">
+      <input name="id" placeholder="아이디를 입력하세요." class="id" />
+      <input
+        name="password"
+        type="password"
+        placeholder="비밀번호를 입력하세요."
+        class="password"
+      />
+    </div>
+
+    <br />
+    <button class="submit" onclick="check()">전송</button>
+
+    <br />
+
+    <h2>질문 1. 대한민국의 수도는?</h2>
+    <h3 onclick="show()">[정답 보기]</h3>
+    <p style="color: white" class="yes">서울</p>
+
+    <script>
+      const images = [
+        "img/ganadi1.jpeg",
+        "img/ganadi2.jpeg",
+        "img/ganadi3.jpeg",
+      ];
+      let currentIndex = 0;
+
+      const updateImage = () => {
+        document.getElementsByClassName("imgContainer")[0].src =
+          images[currentIndex];
+      };
+
+      const previous = () => {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        updateImage();
+      };
+
+      const next = () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        updateImage();
+      };
+
+      const check = () => {
+        const id = document.getElementsByName("id")[0].value;
+        const pw = document.getElementsByName("password")[0].value;
+
+        if (id.length < 5 || id.length > 12) {
+          alert("아이디는 5자 이상 12자 이하로 입력해주세요.");
+          return;
+        }
+
+        alert(`아이디: ${id}\n비밀번호: ${pw}`);
+      };
+
+      const show = () => {
+        const text = document.getElementsByClassName("yes")[0];
+        text.style.color = "black";
+      };
+    </script>
+  </body>
+</html>
