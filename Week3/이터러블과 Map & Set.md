@@ -204,4 +204,5 @@ for (const n of numbers()) {
   console.log(uniq([2, 1, 2, 3, 4, 3, 4])); // [2, 1, 3, 4]
   ```
 - **`요소 순회`**
+
   ![Image](https://github.com/user-attachments/assets/d5d5032f-fa5f-4837-8905-26f9029806e7)
