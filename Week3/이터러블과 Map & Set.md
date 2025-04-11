@@ -138,7 +138,7 @@ for (const n of numbers()) {
     memberList.set(20, "conan").set(50, "rose").set(120, "ran");
 
     console.log(memberList.get(20)); // conan
-    console.log(memberList.has(50) // true
+    console.log(memberList.has(50)); // true
     ```
 
     - 중복된 키를 갖는 요소가 존재할 수 없으므로 나중에 추가된 요소만 저장된다.
@@ -168,6 +168,7 @@ for (const n of numbers()) {
     map.clear();
     ```
 - **`요소 순회`**
+
   ![Image](https://github.com/user-attachments/assets/d8c4fc8b-4f17-4490-a404-30f2275f3a4d)
 
 ### 🐍 Set
@@ -181,7 +182,9 @@ for (const n of numbers()) {
   | 순서에 의미 있음 | O | X |
   | 인덱스로 요소 접근 | O | X |
 - **`set 객체의 메소드`**
+
   ![Image](https://github.com/user-attachments/assets/b32a5d72-b49c-4f50-9a53-285d0ead5f82)
+
 - **`set 객체 생성`**
 
   ```jsx
