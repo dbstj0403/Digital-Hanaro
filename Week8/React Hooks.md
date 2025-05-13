@@ -20,9 +20,8 @@
 ### 🐧 JSX와 컴포넌트
 
 <aside>
-🖤
 
-**JS vs JSX**
+**🖤 JS vs JSX**
 
 </aside>
 
@@ -72,13 +71,13 @@
   - 버튼 클릭 같은 이벤트에 대응하기 위한 함수 내부 로직 또는 props/state를 업데이트할 수 있다.
 
 <aside>
-🛠
 
-**클래스형 컴포넌트 vs 함수형 컴포넌트**
+**🛠 클래스형 컴포넌트 vs 함수형 컴포넌트**
 
 </aside>
 
 - **`클래스형 컴포넌트`**
+
   ```jsx
   import React, { Component } from "react";
 
@@ -89,13 +88,16 @@
     }
   }
   ```
+
   - React.Component를 상속받아 render() 메서드 안에서 JSX를 리턴한다.
   - 상태관리를 위한 this.state, 생명주기 메서드(componentDidMount 등)를 직접 사용할 수 있다.
   - **생명주기 메서드**
     - **`constructor`** → **`render`** → **`componentDidMount`** → (업데이트) → **`shouldComponentUpdate`** → **`render`** → **`componentDidUpdate`**
     - 언마운트 시 componentWillUnmount 등
       ![Image](https://github.com/user-attachments/assets/9d24eaf0-6716-42be-a381-54d9e72f22dd)
+
 - **`함수형 컴포넌트`**
+
   ```jsx
   import React from "react";
 
@@ -106,6 +108,7 @@
   // 또는 화살표 함수
   const Greeting = ({ name }) => <h1>Hello, {name}!</h1>;
   ```
+
   - 순수 함수처럼 props를 받아 JSX를 리턴한다.
   - React 16.8 이후 **`Hooks`** 사용으로 상태관리, 생명주기 효과 등을 사용할 수 있게 되면서 함수형 컴포넌트는 클래스형 컴포넌트를 완전히 대체할 수 있게 되었다.
   - 문법이 단순하고 보일러플레이트가 적다.
@@ -290,7 +293,9 @@ const [state, dispatch] = useReducer(reducer, initialState);
 **😁 dispatch**
 
 - state를 변경할 수 있는 명령어와 정보들을 세팅하는 곳
+
   - 상태변경을 트리거
+
   ```jsx
   // 1번째 방법
   const onPlus = () => {
