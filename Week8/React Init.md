@@ -26,6 +26,7 @@
 > **App.jsx**
 
 - 리액트 프로젝트에서 앱의 핵심 UI 구조와 로직을 정의하는 메인 컴포넌트 파일
+
   ```jsx
   import "./App.css";
 
@@ -41,6 +42,7 @@
 
   export default App;
   ```
+
   ![Image](https://github.com/user-attachments/assets/f84ffff3-e605-45b6-a804-f93852250115)
 
 > **About React**
@@ -57,7 +59,7 @@
   - 변경이 생기면 브라우저가 전체 트리를 다시 렌더링해야 하므로, 속도가 느리다.
 - **`Virtual-dom`** 은 실제 dom 대신 사용하는 메모리상의 가상 돔트리로 UI가 변경될 때 리액트는 이 가상 돔을 먼저 변경하고, 변경된 내용만 실제 돔에 최소한으로 반영한다.
   - 이로써 실제 돔을 직접 다루는 것보다 훨씬 빠르고 효율적이다.
-    ![스크린샷 2025-05-09 오전 10.34.32.png](attachment:9f1c8cb2-b0f7-4b59-98a9-627a9fb76c5a:스크린샷_2025-05-09_오전_10.34.32.png)
+    ![Image](https://github.com/user-attachments/assets/56fbf918-2c54-491e-bd2c-039c00eec47b)(attachment:9f1c8cb2-b0f7-4b59-98a9-627a9fb76c5a:스크린샷*2025-05-09*오전\_10.34.32.png)
 - 상태변화를 감지하고 가상 돔을 이용해 UI 업데이트를 최소화하는 과정을 **`Reconsiliation Process`** 라고 한다.
 
 > **SWC vs ESBuild vs Babel**
